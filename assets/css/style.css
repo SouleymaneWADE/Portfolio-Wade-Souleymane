@@ -568,6 +568,9 @@ body.light-theme {
 .bottom-nav .menu li:hover a span {
   opacity: 1;
 }
+.light-theme .bottom-nav .menu li:hover a span {
+  opacity: 1;
+}
 
 .bottom-nav .menu li a span::before {
   content: "";
@@ -2410,6 +2413,9 @@ body.light-theme {
   .skill-card {
     padding: 50px 0;
   }
+  .light-theme .skill-card {
+    padding: 50px 0;
+  }
 
   .skill i {
     font-size: 1.25rem;
@@ -2544,8 +2550,18 @@ body.light-theme {
     width: 100%;
     padding: 0 20px;
   }
+  .light-theme .bottom-nav {
+    width: 100%;
+    padding: 0 20px;
+  }
 
   .bottom-nav .menu {
+    padding: 17px 25px;
+    justify-content: space-between;
+    column-gap: 7px;
+    width: 100%;
+  }
+  .light-theme .bottom-nav .menu {
     padding: 17px 25px;
     justify-content: space-between;
     column-gap: 7px;
@@ -2556,8 +2572,15 @@ body.light-theme {
     font-size: 1.15rem;
     padding: 7px;
   }
+  .light-theme .bottom-nav .menu li a i {
+    font-size: 1.15rem;
+    padding: 7px;
+  }
 
   .bottom-nav .menu-hide-btn {
+    font-size: 1.25rem;
+  }
+  .light-theme .bottom-nav .menu-hide-btn {
     font-size: 1.25rem;
   }
 
@@ -2567,8 +2590,17 @@ body.light-theme {
     row-gap: 4px;
     bottom: -30px;
   }
+  .light-theme .menu-show-btn {
+    width: 75px;
+    height: 45px;
+    row-gap: 4px;
+    bottom: -30px;
+  }
 
   .menu-show-btn.active {
+    bottom: 30px;
+  }
+  .light-theme .menu-show-btn.active {
     bottom: 30px;
   }
 
